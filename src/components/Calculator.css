@@ -58,33 +58,43 @@
 .four {
   grid-area: four;
 }
+
 .five {
   grid-area: five;
 }
+
 .six {
   grid-area: six;
 }
+
 .minus {
   grid-area: minus;
 }
+
 .one {
   grid-area: one;
 }
+
 .two {
   grid-area: two;
 }
+
 .three {
   grid-area: three;
 }
+
 .add {
   grid-area: add;
 }
+
 .zero {
   grid-area: zero;
 }
+
 .dot {
   grid-area: dot;
 }
+
 .equal {
   grid-area: equal;
 }
