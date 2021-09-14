@@ -1,0 +1,143 @@
+.calculator-container {
+  max-width: 1000px;
+  margin: 5em auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'result result result result'
+    'AC add-sub modulus divide'
+    'seven eight nine cross'
+    'four five six minus'
+    'one two three add'
+    'zero zero dot equal';
+}
+
+.result {
+  grid-area: result;
+  background-color: #858693;
+  color: white;
+  padding: 1.25em 1em;
+  text-align: right;
+  font-size: 30px;
+}
+
+.ac {
+  grid-area: AC;
+}
+
+.add-sub {
+  grid-area: add-sub;
+}
+
+.modulus {
+  grid-area: modulus;
+}
+
+.divide {
+  grid-area: divide;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.cross {
+  grid-area: cross;
+}
+
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.minus {
+  grid-area: minus;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.add {
+  grid-area: add;
+}
+.zero {
+  grid-area: zero;
+}
+.dot {
+  grid-area: dot;
+}
+.equal {
+  grid-area: equal;
+}
+
+.ac,
+.add-sub,
+.modulus,
+.seven,
+.eight,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three,
+.zero,
+.dot,
+.equal {
+  background-color: #e0e0e0;
+}
+
+.divide,
+.cross,
+.minus,
+.add {
+  background-color: #f4913e;
+}
+
+.ac,
+.add-sub,
+.modulus,
+.divide,
+.seven,
+.eight,
+.nine,
+.cross,
+.four,
+.five,
+.six,
+.minus,
+.one,
+.two,
+.three,
+.add,
+.zero,
+.dot,
+.equal {
+  border: 1px solid #414141;
+  padding: 1.5em 1em;
+  text-align: center;
+}
+
+section:hover {
+  background-color: #414141;
+}
