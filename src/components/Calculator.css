@@ -21,6 +21,7 @@
   padding: 1.25em 1em;
   text-align: right;
   font-size: 30px;
+  border: none;
 }
 
 .ac {
@@ -120,7 +121,8 @@
 .divide,
 .cross,
 .minus,
-.add {
+.add,
+.equal {
   background-color: #f4913e;
 }
 
@@ -143,11 +145,12 @@
 .zero,
 .dot,
 .equal {
-  border: 1px solid #414141;
+  border: 1px solid black;
+  border-collapse: collapse;
   padding: 1.5em 1em;
   text-align: center;
 }
 
-section:hover {
-  background-color: #414141;
+button:hover {
+  background-color: #707070;
 }
