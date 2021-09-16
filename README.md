@@ -4,6 +4,18 @@ Math Magicians is a website for all fans of mathematics. It is a Single Page App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Screenshot
+
+![screenshot](./calculator-screenshot.png)
+
+## Authors
+
+👤 **Zain Sadaqat**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 ## Available Scripts
 
 In the project directory, you can run:
