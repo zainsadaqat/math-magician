@@ -1,26 +1,18 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 
-class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    const { value, clickEvent } = this.props;
-    return (
-      <button
-        type="button"
-        className={this.props.className}
-        value={value}
-        onClick={clickEvent}
-      >
-        {value}
-      </button>
-    );
-  }
-}
+const Button = (props) => {
+  return (
+    <button
+      type="button"
+      className={props.className}
+      value={props.value}
+      onClick={props.clickEvent}
+    >
+      {props.value}
+    </button>
+  );
+};
 
 Button.propTypes = {
   value: PropTypes.string.isRequired,
