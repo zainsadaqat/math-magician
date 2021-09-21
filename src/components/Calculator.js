@@ -30,15 +30,12 @@ const Calculator = () => {
 
   const clickEvent = (event) => {
     const obj = calcState;
-    console.log('State: ', obj);
     const { value } = event.target;
     const resultObject = calculate(obj, value);
-    console.log('Result Object: ', resultObject);
     calcSetState(resultObject);
   };
 
   const outputVal = generateResult(calcState);
-  console.log('Output Value: ', outputVal);
   return (
     <section className="calculator-container">
       <main className="grid-container">
