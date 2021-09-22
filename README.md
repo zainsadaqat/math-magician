@@ -4,6 +4,16 @@ Math Magicians is a website for all fans of mathematics. It is a Single Page App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Steps to run the project in your local machine
+
+Go To Terminal and paste the following command:
+
+`git clone git@github.com:zainsadaqat/math-magicians.git`
+
+`cd math-magicianss`
+
+`npm start`
+
 ## Live Screenshot
 
 ![screenshot](./calculator-screenshot.png)
