@@ -12,7 +12,7 @@
 
 .nav-item {
   padding: 0 1em;
-  border-left: 3px solid rgb(150, 150, 150);
+  border-left: 3px solid rgb(100, 100, 100);
   font-weight: bolder;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .nav-item > a {
-  color: rgb(240, 240, 240);
+  color: rgb(100, 100, 100);
 }
 
 .nav-item > a:hover {
