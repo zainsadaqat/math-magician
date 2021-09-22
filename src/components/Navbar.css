@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  padding: 0 1em;
+  border-left: 3px solid rgb(100, 100, 100);
+  font-weight: bolder;
+}
+
+.nav-item:first-child {
+  border-left: none;
+}
+
+.nav-item > a {
+  color: rgb(100, 100, 100);
+}
+
+.nav-item > a:hover {
+  color: rgb(54, 54, 54);
+  text-decoration: underline;
+}
+
+.active {
+  color: #333;
+}
