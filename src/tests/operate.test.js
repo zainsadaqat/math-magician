@@ -20,8 +20,10 @@ describe('Testing operate.js', () => {
     const operationMinus = '-';
     expect(operate(firstNumber, secondNumber, operationMinus)).toBe('-1');
   });
-  test('Seven ( 7 ) button exists', () => {
-    const sevenButton = screen.getByTestId('seven');
-    expect(sevenButton).toBeInTheDocument();
+  test('3 times 4 equals to 12', () => {
+    const firstNumber = 3;
+    const secondNumber = 4;
+    const operationMultiply = 'x';
+    expect(operate(firstNumber, secondNumber, operationMultiply)).toBe('12');
   });
 });
