@@ -26,7 +26,8 @@
     "react/destructuring-assignment": "off",
     "no-unused-vars": "off",
     "react/no-unused-state": "off",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "react/prop-types": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
