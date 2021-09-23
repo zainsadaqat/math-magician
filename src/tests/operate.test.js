@@ -1,5 +1,5 @@
-import operate from '../logic/operate';
 import { render, screen } from '@testing-library/react';
+import operate from '../logic/operate';
 import '@testing-library/jest-dom';
 import Calculator from '../components/Calculator';
 
