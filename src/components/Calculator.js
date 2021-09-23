@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 import Button from './Button';
-import Output from './Output';
 
 const generateResult = ({ total, next, operation }) => {
   if (!total && !next && !operation) {
@@ -39,12 +38,19 @@ const Calculator = () => {
   return (
     <section className="calculator-container">
       <main className="grid-container">
-        <Output outputval={outputVal} clickEvent={clickEvent} />
+        <button type="button" className="result">
+          {outputVal}
+        </button>
         <Button className="ac" value="AC" clickEvent={clickEvent} />
         <Button className="add-sub" value="+/-" clickEvent={clickEvent} />
         <Button className="modulus" value="%" clickEvent={clickEvent} />
         <Button className="divide" value="÷" clickEvent={clickEvent} />
-        <Button className="seven" value="7" clickEvent={clickEvent} />
+        <Button
+          btnIdProp="seven"
+          className="seven"
+          value="7"
+          clickEvent={clickEvent}
+        />
         <Button className="eight" value="8" clickEvent={clickEvent} />
         <Button className="nine" value="9" clickEvent={clickEvent} />
         <Button className="cross" value="x" clickEvent={clickEvent} />
