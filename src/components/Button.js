@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Button = (props) => {
   return (
     <button
+      data-testid={props.btnIdProp}
       type="button"
       className={props.className}
       value={props.value}
