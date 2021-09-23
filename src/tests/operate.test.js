@@ -26,4 +26,10 @@ describe('Testing operate.js', () => {
     const operationMultiply = 'x';
     expect(operate(firstNumber, secondNumber, operationMultiply)).toBe('12');
   });
+  test('12 divided 4 equals to 3', () => {
+    const firstNumber = 12;
+    const secondNumber = 4;
+    const operationDivide = '÷';
+    expect(operate(firstNumber, secondNumber, operationDivide)).toBe('3');
+  });
 });
