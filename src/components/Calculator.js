@@ -3,7 +3,7 @@ import './Calculator.css';
 import calculate from '../logic/calculate';
 import Button from './Button';
 
-const generateResult = ({ total, next, operation }) => {
+export const generateResult = ({ total, next, operation }) => {
   if (!total && !next && !operation) {
     return 0;
   }
@@ -41,7 +41,7 @@ const Calculator = () => {
         <button type="button" className="result">
           {outputVal}
         </button>
-        <Button className="ac" value="AC" clickEvent={clickEvent} />
+        <Button className="ac" btnIdProp="AC" value="AC" clickEvent={clickEvent} />
         <Button className="add-sub" value="+/-" clickEvent={clickEvent} />
         <Button className="modulus" value="%" clickEvent={clickEvent} />
         <Button className="divide" value="÷" clickEvent={clickEvent} />
