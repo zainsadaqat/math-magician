@@ -18,6 +18,12 @@ Go To Terminal and paste the following command:
 
 ![screenshot](./calculator-screenshot.png)
 
+## Live Project Links
+
+Heroku: 
+
+Netlify: 
+
 ## Authors
 
 👤 **Zain Sadaqat**
